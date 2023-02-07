@@ -1,0 +1,58 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Matlab
+*.asv
+# Python/Arduino Project
+audio/EncodeAudio-windows/
+# CCS 10
+examples-ccs-v10/voice_detection_MSP_EXP432P401R_nortos_ccs/Debug/
+
+
+ccs10-projects/.jxbrowser-data/
+
+.esp-build-output/
+
+# Argos-3 ignore files
+argos3-lisat/build/
+argos3-lisat/cmake/
+argos3-lisat/embedding/
+
+*/.metadata/
+
+src/MSP432LISAT/.jxbrowser-data/
+
+src/MSP432LISAT/MSP432P401R_LISAT_ccs/.settings/
+
+src/MSP432LISAT/RemoteSystemsTempFiles/
+*.pyc

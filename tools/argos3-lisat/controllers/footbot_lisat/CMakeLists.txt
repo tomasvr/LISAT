@@ -1,0 +1,5 @@
+add_library(footbot_lisat SHARED footbot_lisat.h footbot_lisat.cpp)
+target_link_libraries(footbot_lisat
+  argos3core_simulator
+  argos3plugin_simulator_footbot
+  argos3plugin_simulator_genericrobot)
